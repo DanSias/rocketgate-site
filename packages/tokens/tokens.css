@@ -1,0 +1,28 @@
+:root {
+  /* Brand */
+  --rg-color-bg: 255 255 255;              /* white */
+  --rg-color-fg: 15 23 42;                 /* slate-900 */
+  --rg-color-primary: 176 96 255;          /* #b060ff */
+  --rg-color-accent: 238 135 203;          /* #ee87cb */
+  --rg-color-warm: 255 241 190;            /* #fff1be */
+
+  /* Text sizes */
+  --rg-text-xs: 0.75rem;
+  --rg-text-sm: 0.875rem;
+  --rg-text-base: 1rem;
+  --rg-text-lg: 1.125rem;
+  --rg-text-xl: 1.25rem;
+  --rg-text-2xl: 1.5rem;
+  --rg-text-3xl: 1.875rem;
+
+  /* Radius & shadows */
+  --rg-radius: 1rem;
+  --rg-shadow: 0 10px 30px rgba(0,0,0,.08);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --rg-color-bg: 2 6 23;                 /* slate-950 */
+    --rg-color-fg: 241 245 249;            /* slate-100 */
+  }
+}
